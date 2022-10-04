@@ -10,7 +10,6 @@
 * [vim 基本用法](linux/vim-ji-ben-yong-fa.md)
 * [ubuntu 安装桌面](linux/ubuntu-an-zhuang-zhuo-mian.md)
 * [ubuntu 桌面系统使用笔记](linux/ubuntu-zhuo-mian-xi-tong-shi-yong-bi-ji.md)
-* [中文](linux/中文.md)
 
 ## docker
 
