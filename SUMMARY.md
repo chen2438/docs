@@ -20,3 +20,7 @@
 ***
 
 * [站点维护信息](zhan-dian-wei-hu-xin-xi.md)
+
+## windows
+
+* [Microsoft Store微软应用商店打开报错“0x80131500”或“0x80072EFD”解决方案](windows/microsoft-store-wei-ruan-ying-yong-shang-dian-da-kai-bao-cuo-0x80131500-huo-0x80072efd-jie-jue-fang.md)
