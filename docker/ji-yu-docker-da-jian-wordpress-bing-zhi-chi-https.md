@@ -2,17 +2,18 @@
 
 ### 安装 docker 与 docker compose
 
-[Docker 安装与基本用法](https://chenhaotian.top/2022/09/11/docker-%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/)
+[Docker 安装与基本用法](https://chenhaotian.top/docker-%e5%9f%ba%e6%9c%ac%e7%94%a8%e6%b3%95/)
 
 安装 docker compose
 
 ```bash
 apt -y update
-apt -y upgrade
 apt -y install docker-compose
 ```
 
-### 获取 mysql, wordpress 镜像
+### 拉取 mysql, wordpress 镜像
+
+(可跳过, 启动时会自动下载)
 
 ```bash
 docker pull mysql
@@ -22,6 +23,8 @@ docker pull wordpress
 ### 启动容器
 
 编写 docker-compose.yml
+
+注意参数前必须空一格
 
 ```yaml
 version: '3.3'
@@ -122,7 +125,7 @@ docker restart wordpress
 
 访问 WordPress 后台, 在设置中更改站点地址为 https://xxx.xxx
 
-注意, 更改之前请尝试并确认可以通过 https 访问, 如果访问失败, 可以尝试清除浏览器缓存/多刷新几次/换个浏览器
+注意, 更改之前请尝试并确认可以通过 https 访问, 如果访问失败, 可以尝试清除浏览器缓存/强制刷新/换个浏览器
 
 ![image-20220911195047917](http://nme-200t.oss-cn-hangzhou.aliyuncs.com/notes/2022-09-11-115048.png)
 
