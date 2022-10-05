@@ -1,7 +1,3 @@
----
-description: 发布于 2022.09.07
----
-
 # 基于 Docker 搭建 ownCloud 个人云盘
 
 [**官方文档**](https://doc.owncloud.com/server/10.10/admin\_manual/installation/docker/)

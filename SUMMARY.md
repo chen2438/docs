@@ -22,6 +22,12 @@
 * [Microsoft Store微软应用商店打开报错“0x80131500”或“0x80072EFD”解决方案](windows/microsoft-store-wei-ruan-ying-yong-shang-dian-da-kai-bao-cuo-0x80131500-huo-0x80072efd-jie-jue-fang.md)
 * [关于【Windows 资源保护找到了损坏文件，但其中有一些文件无法修复】的解决方法](windows/guan-yu-windows-zi-yuan-bao-hu-zhao-dao-le-sun-huai-wen-jian-dan-qi-zhong-you-yi-xie-wen-jian-wu-fa.md)
 
+## environment
+
+* [Sublime Text 搭建 C++ 环境](environment/sublime-text-da-jian-c++-huan-jing.md)
+* [关于 Dev\_C++ 【\[Error\] ld returned 1 exit status】问题的一种解决方案](environment/guan-yu-devc++-error-ld-returned-1-exit-status-wen-ti-de-yi-zhong-jie-jue-fang-an.md)
+* [ValueError: check\_hostname requires server\_hostname的解决方法](environment/valueerror-checkhostname-requires-serverhostname-de-jie-jue-fang-fa.md)
+
 ## other
 
 * [满分作文生成器：生活在代码上](other/man-fen-zuo-wen-sheng-cheng-qi-sheng-huo-zai-dai-ma-shang.md)

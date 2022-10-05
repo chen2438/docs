@@ -1,7 +1,3 @@
----
-description: 发布于 2022.09.11
----
-
 # Docker 基本用法
 
 ### Docker 安装
