@@ -1,3 +1,7 @@
+---
+description: 发布于 2022.09.25
+---
+
 # ubuntu 安装桌面
 
 ```bash
