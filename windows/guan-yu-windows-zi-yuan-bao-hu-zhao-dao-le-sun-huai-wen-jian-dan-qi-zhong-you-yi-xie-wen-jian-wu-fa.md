@@ -2,11 +2,11 @@
 description: 发布于 2022.02.18
 ---
 
-# 关于【Windows 资源保护找到了损坏文件，但其中有一些文件无法修复】的解决方法
+# Windows 资源保护找到了损坏文件，但其中有一些文件无法修复的解决方法
 
 [**参考**](https://www.cnblogs.com/karmapeng/p/10241731.html)
 
-### 问题描述
+#### 问题描述
 
 ```
 PS C:\Users\Qwer-laptop> sfc /scannow
@@ -22,7 +22,7 @@ Windows 资源保护找到了损坏文件，但其中有一些文件无法修复
 /OFFLOGFILE 标记提供的日志文件中有详细信息。
 ```
 
-### 解决方法
+#### 解决方法
 
 依次输入`DISM.exe /Online /Cleanup-image /Scanhealth`和`DISM.exe /Online /Cleanup-image /Restorehealth`，然后再`sfc /scannow`即可。在我的环境下，似乎可以不重启电脑。
 
