@@ -9,6 +9,8 @@
 * [tmux 基本用法](linux/tmux-ji-ben-yong-fa.md)
 * [vim 基本用法](linux/vim-ji-ben-yong-fa.md)
 * [ubuntu 安装桌面](linux/ubuntu-an-zhuang-zhuo-mian.md)
+* [ubuntu 安装 MongoDB](linux/ubuntu-an-zhuang-mongodb.md)
+* [ubuntu 安装最新 Node.js 和 tsc](linux/ubuntu-an-zhuang-zui-xin-node.js-he-tsc.md)
 * [ubuntu 桌面系统使用笔记](linux/ubuntu-zhuo-mian-xi-tong-shi-yong-bi-ji.md)
 
 ## docker
