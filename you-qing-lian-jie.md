@@ -4,6 +4,8 @@
 
 **Linux Command** - Linux 命令速查手册 [Github](https://github.com/jaywcjlove/linux-command) | [WEB](https://qq.wdev.cn/)
 
+**Docker — 从入门到实践** [Github](https://github.com/yeasy/docker_practice) | [WEB](https://yeasy.gitbook.io/docker_practice/)
+
 ### 工具
 
 **站长工具** [WEB](https://tool.chinaz.com/)
@@ -28,3 +30,6 @@ ucloud [官网](https://www.ucloud.cn/) | [控制台](https://www.ucloud.cn/)
 
 甲骨文 [官网](https://www.oracle.com/cn/)
 
+Azure [官网](https://azure.microsoft.com/zh-cn/) | [控制台](https://portal.azure.com/)
+
+Google Cloud
