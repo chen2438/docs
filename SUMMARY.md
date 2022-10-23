@@ -43,4 +43,5 @@
 
 ***
 
+* [友情链接](you-qing-lian-jie.md)
 * [站点维护信息](zhan-dian-wei-hu-xin-xi.md)
