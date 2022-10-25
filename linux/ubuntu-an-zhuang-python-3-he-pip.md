@@ -2,7 +2,9 @@
 description: 发布于 2022.10.25
 ---
 
-# ubuntu 安装 Python 3.10
+# ubuntu 安装 Python 3 和 pip
+
+#### 安装 Python 3.10
 
 [参考链接](https://computingforgeeks.com/how-to-install-python-on-ubuntu-linux-system/)
 
@@ -67,4 +69,14 @@ Verify the installation by checking the installed version.
 ```
 $ python3.10 --version
 3.10.4
+```
+
+#### 脚本安装 pip
+
+[参考链接](https://pip.pypa.io/en/latest/installation/)
+
+<pre class="language-bash"><code class="lang-bash"><strong>wget https://bootstrap.pypa.io/get-pip.py</strong></code></pre>
+
+```bash
+python get-pip.py
 ```
