@@ -8,6 +8,7 @@
 * [git 基本用法](linux/git-ji-ben-yong-fa.md)
 * [tmux 基本用法](linux/tmux-ji-ben-yong-fa.md)
 * [vim 基本用法](linux/vim-ji-ben-yong-fa.md)
+* [ubuntu 终端更改为中文](linux/ubuntu-zhong-duan-geng-gai-wei-zhong-wen.md)
 * [ubuntu 安装桌面](linux/ubuntu-an-zhuang-zhuo-mian.md)
 * [ubuntu 安装 MongoDB](linux/ubuntu-an-zhuang-mongodb.md)
 * [ubuntu 安装 Python 3 和 pip](linux/ubuntu-an-zhuang-python-3-he-pip.md)
