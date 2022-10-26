@@ -10,19 +10,19 @@ description: 发布于 2022.10.25
 
 Install the required dependency for adding custom PPAs.
 
-```
+```bash
 sudo apt install software-properties-common -y
 ```
 
 Then proceed and add the deadsnakes PPA to the APT package manager sources list as below.
 
-```
+```bash
 sudo add-apt-repository ppa:deadsnakes/ppa
 ```
 
 Press **Enter** to continue.
 
-```
+```bash
 ..........
 To install 3rd-party Python modules, you should use the common Python packaging tools.  For an introduction into the Python packaging ecosystem and its tools, refer to the Python Packaging User Guide:
 https://packaging.python.org/installing/
@@ -42,13 +42,13 @@ Press [ENTER] to continue or ctrl-c to cancel adding it
 
 With the deadsnakes repository added to your Ubuntu 20.04|18.04 system, now download Python 3.10 with the single command below.
 
-```
+```bash
 sudo apt install python3.10
 ```
 
 Dependency Tree:
 
-```
+```bash
 ...................
 Building dependency tree       
 Reading state information... Done
@@ -66,7 +66,7 @@ Do you want to continue? [Y/n] y
 
 Verify the installation by checking the installed version.
 
-```
+```bash
 $ python3.10 --version
 3.10.4
 ```

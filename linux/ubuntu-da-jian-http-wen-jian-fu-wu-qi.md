@@ -81,4 +81,4 @@ sudo /etc/init.d/apache2 restart
 ```
 
 apache服务器的默认目录在/var/www/html，如果想利用http服务器下载文件，需要删除其index.html文件，然后把文件放在该目录即可\
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200404165624996.png)
+![在这里插入图片描述](https://nme-file.oss-cn-hangzhou.aliyuncs.com/img/202210262013199.png)
