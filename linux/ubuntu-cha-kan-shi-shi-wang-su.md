@@ -1,14 +1,14 @@
 ---
-description: 转载于 2022.10.26
+description: 发布于 2022.10.26
 ---
 
 # ubuntu 查看实时网速
 
-[参考链接](https://huataihuang.gitbooks.io/cloud-atlas/content/network/packet\_analysis/utilities/tcptrack.html)
+[参考链接](https://huataihuang.gitbooks.io/cloud-atlas/content/network/packet_analysis/utilities/tcptrack.html)
 
 ### TCPtrack
 
-#### 安装`tcptrack`
+#### 安装`tcptrack` 
 
 ```bash
 sudo apt install tcptrack
