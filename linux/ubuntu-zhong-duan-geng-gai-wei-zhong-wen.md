@@ -26,14 +26,12 @@ sudo apt-get install language-pack-zh-hans
 
 然后添加中文支持
 
-```bash
-locale-gen zh_CN.UTF-8
-```
+<pre class="language-bash"><code class="lang-bash"><strong>sudo locale-gen zh_CN.UTF-8</strong></code></pre>
 
 #### 二、修改locale文件配置
 
 ```bash
-vim /etc/default/locale
+sudo vim /etc/default/locale
 ```
 
 修改配置文件为：
@@ -56,7 +54,7 @@ LC_ALL=zh_CN.UTF-8
 #### 三、重启
 
 ```bash
-reboot
+sudo reboot
 ```
 
 #### 四、如果还是不行，请检查终端的语言设置
@@ -88,7 +86,18 @@ vim /etc/default/locale
 ```
 
 ```bash
-LANG=en_US.UTF-8LANGUAGE="en_US:en"LC_NUMERIC="en_US.UTF-8"LC_TIME="en_US.UTF-8"LC_MONETARY="en_US.UTF-8"LC_PAPER="en_US.UTF-8"LC_IDENTIFICATION="en_US.UTF-8"LC_NAME="en_US.UTF-8"LC_ADDRESS="en_US.UTF-8"LC_TELEPHONE="en_US.UTF-8"LC_MEASUREMENT="en_US.UTF-8"LC_ALL=en_US.UTF-8
+LANG=en_US.UTF-8
+LANGUAGE="en_US:en"
+LC_NUMERIC="en_US.UTF-8"
+LC_TIME="en_US.UTF-8"
+LC_MONETARY="en_US.UTF-8"
+LC_PAPER="en_US.UTF-8"
+LC_IDENTIFICATION="en_US.UTF-8"
+LC_NAME="en_US.UTF-8"
+LC_ADDRESS="en_US.UTF-8"
+LC_TELEPHONE="en_US.UTF-8"
+LC_MEASUREMENT="en_US.UTF-8"
+LC_ALL=en_US.UTF-8
 ```
 
 重启
