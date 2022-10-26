@@ -10,6 +10,7 @@
 * [vim 基本用法](linux/vim-ji-ben-yong-fa.md)
 * [ubuntu 终端更改为中文](linux/ubuntu-zhong-duan-geng-gai-wei-zhong-wen.md)
 * [ubuntu 安装桌面](linux/ubuntu-an-zhuang-zhuo-mian.md)
+* [ubuntu 搭建 http 文件服务器](linux/ubuntu-da-jian-http-wen-jian-fu-wu-qi.md)
 * [ubuntu 安装 MongoDB](linux/ubuntu-an-zhuang-mongodb.md)
 * [ubuntu 安装 Python 3 和 pip](linux/ubuntu-an-zhuang-python-3-he-pip.md)
 * [ubuntu 安装最新 Node.js 和 tsc](linux/ubuntu-an-zhuang-zui-xin-node.js-he-tsc.md)
