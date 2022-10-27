@@ -23,6 +23,7 @@
 * [Docker 基本用法](docker/docker-ji-ben-yong-fa.md)
 * [基于 Docker 搭建 WordPress 并支持 HTTPS](docker/ji-yu-docker-da-jian-wordpress-bing-zhi-chi-https.md)
 * [基于 Docker 搭建 ownCloud 个人云盘](docker/ji-yu-docker-da-jian-owncloud-ge-ren-yun-pan.md)
+* [Docker 搭建 jellyfin 媒体服务器](docker/docker-da-jian-jellyfin-mei-ti-fu-wu-qi.md)
 
 ## windows
 

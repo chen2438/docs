@@ -1,20 +1,26 @@
 ---
-description: 发布于 2022.10.26
+description: 转载于 2022.10.26
 ---
 
 # ubuntu 查看实时网速
 
-[参考链接](https://huataihuang.gitbooks.io/cloud-atlas/content/network/packet_analysis/utilities/tcptrack.html)
+[参考链接](https://huataihuang.gitbooks.io/cloud-atlas/content/network/packet\_analysis/utilities/tcptrack.html)
 
 ### TCPtrack
 
-#### 安装`tcptrack` 
+#### 安装`tcptrack`
 
 ```bash
 sudo apt install tcptrack
 ```
 
 #### 使用`tcptrack`
+
+立即开始使用
+
+```bash
+sudo tcptrack -i eth0
+```
 
 `tcptrack`使用非常简单，只要具有`root`权限执行，带上`-i <interface>`参数就可以在指定接口上开始抓包分析，实际使用语法
 
