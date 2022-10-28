@@ -50,4 +50,5 @@
 ***
 
 * [友情链接](you-qing-lian-jie.md)
+* [GitHub 藏宝图](github-cang-bao-tu.md)
 * [站点维护信息](zhan-dian-wei-hu-xin-xi.md)
