@@ -10,6 +10,8 @@
 
 **站长工具** [WEB](https://tool.chinaz.com/)
 
+**ping.pe** [WEB](https://ping.pe/)
+
 ### 云服务器
 
 #### 国内
