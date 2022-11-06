@@ -1,12 +1,14 @@
 # 友情链接
 
-### 文档 &&#x20;
+### 文档 & 教程&#x20;
 
 **Linux Command** - Linux 命令速查手册 [Github](https://github.com/jaywcjlove/linux-command) | [WEB](https://qq.wdev.cn/)
 
 **Docker — 从入门到实践** [Github](https://github.com/yeasy/docker\_practice) | [WEB](https://yeasy.gitbook.io/docker\_practice/)
 
-**重新介绍 JavaScript（JS 教程）** [WEB](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Language\_Overview)
+**MDN 中文** [WEB](https://developer.mozilla.org/zh-CN/docs/Web)
+
+**Node.js 中文教程** [WEB](http://dev.nodejs.cn/learn)
 
 ### 工具
 
