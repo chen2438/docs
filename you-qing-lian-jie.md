@@ -1,6 +1,6 @@
 # 友情链接
 
-### 文档 & 教程&#x20;
+### 文档 & 教程
 
 **Linux Command** - Linux 命令速查手册 [Github](https://github.com/jaywcjlove/linux-command) | [WEB](https://qq.wdev.cn/)
 
@@ -15,6 +15,8 @@
 **站长工具** [WEB](https://tool.chinaz.com/)
 
 **ping.pe** [WEB](https://ping.pe/)
+
+**Icon Maker -** 在线图标制作工具 [WEB](https://icon.ray.so/)
 
 ### 云服务器
 
