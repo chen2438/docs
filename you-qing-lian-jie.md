@@ -10,6 +10,8 @@
 
 **Node.js 中文教程** [WEB](http://dev.nodejs.cn/learn)
 
+**Nginx 中文教程** [WEB](https://www.cainiaojc.com/nginx/nginx-index.html)
+
 ### 工具
 
 **站长工具** [WEB](https://tool.chinaz.com/)
