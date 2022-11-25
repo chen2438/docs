@@ -41,14 +41,18 @@ apt update
 安装 MySQL
 
 ```bash
-apt install mysql-community-server
+apt install mysql-server
 ```
 
 在弹出的窗口设置数据库的 root 密码
 
-![输入根密码](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/media/how-to-install-mysql-on-debian-10-5.png)
+![image-20221125202500907](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/media/image-20221125202500907.png)
+
+![image-20221125202515593](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/media/image-20221125202515593.png)
 
 在接下来的窗口选择加密方式，依据客户端版本选择对应方式（强加密/传统加密），我选择了默认选项强加密
+
+![image-20221125202529629](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/media/image-20221125202529629.png)
 
 检查服务状态
 
@@ -56,7 +60,7 @@ apt install mysql-community-server
 systemctl status mysql
 ```
 
-![image-20221125183755528](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/media/image-20221125183755528.png)
+![image-20221125202635034](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/media/image-20221125202635034.png)
 
 #### 配置安全性和远程访问
 
@@ -67,6 +71,10 @@ mysql_secure_installation
 根据问题回答“是”（Y/y 按钮）或“否”（任何其他键）
 
 在 Disallow root login remotely? 问题时回答 no 以允许远程 root 访问
+
+![image-20221125202847592](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/media/image-20221125202847592.png)
+
+![image-20221125202919613](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/media/image-20221125202919613.png)
 
 编辑 mysqld.cnf 来允许远程访问
 
@@ -97,11 +105,15 @@ GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost';
 UPDATE mysql.user SET host='%' WHERE user='root';
 ```
 
-然后重新启动 MySQL
+![image-20221125203053969](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/media/image-20221125203053969.png)
+
+输入 exit 登出 MySQL，然后重新启动 MySQL
 
 ```bash
 systemctl restart mysql
 ```
+
+![image-20221125203208475](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/media/image-20221125203208475.png)
 
 然后再 `mysql -uroot -p` 登录一次 MySQL（以避免奇怪的客户端连接问题 Public Key Retrieval is not allowed ）
 
