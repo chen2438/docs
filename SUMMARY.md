@@ -19,6 +19,7 @@
 * [ubuntu 桌面系统使用笔记](linux/ubuntu-zhuo-mian-xi-tong-shi-yong-bi-ji.md)
 * [debian 安装 MySQL 并配置 root 远程登录](linux/debian-an-zhuang-mysql-bing-pei-zhi-root-yuan-cheng-deng-lu.md)
 * [debian 卸载 MySQL](linux/debian-xie-zai-mysql.md)
+* [debian 安装 PHP](linux/debian-an-zhuang-php.md)
 * [linux vps 常用脚本](linux/linux-vps-chang-yong-jiao-ben.md)
 
 ## docker
