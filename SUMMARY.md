@@ -17,6 +17,7 @@
 * [ubuntu 安装 Python 3 和 pip](linux/ubuntu-an-zhuang-python-3-he-pip.md)
 * [ubuntu 安装最新 Node.js 和 tsc](linux/ubuntu-an-zhuang-zui-xin-node.js-he-tsc.md)
 * [ubuntu 桌面系统使用笔记](linux/ubuntu-zhuo-mian-xi-tong-shi-yong-bi-ji.md)
+* [debian 安装 MySQL 并配置 root 远程登录](linux/debian-an-zhuang-mysql-bing-pei-zhi-root-yuan-cheng-deng-lu.md)
 * [linux vps 常用脚本](linux/linux-vps-chang-yong-jiao-ben.md)
 
 ## docker
