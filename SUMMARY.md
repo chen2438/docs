@@ -43,6 +43,7 @@
 * [Sublime Text 搭建 C++ 环境](environment/sublime-text-da-jian-c++-huan-jing.md)
 * [Dev C++ \[Error\] ld returned 1 exit status问题的一种解决方案](environment/guan-yu-devc++-error-ld-returned-1-exit-status-wen-ti-de-yi-zhong-jie-jue-fang-an.md)
 * [ValueError: check\_hostname requires server\_hostname的解决方法](environment/valueerror-checkhostname-requires-serverhostname-de-jie-jue-fang-fa.md)
+* [debian 配置 C++ 连接 MySQL](environment/debian-pei-zhi-c++-lian-jie-mysql.md)
 
 ## other
 

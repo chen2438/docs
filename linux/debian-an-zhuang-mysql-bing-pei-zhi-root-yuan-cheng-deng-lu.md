@@ -41,7 +41,7 @@ apt update
 安装 MySQL
 
 ```bash
-apt install mysql-community-server
+apt install mysql-server
 ```
 
 在弹出的窗口设置数据库的 root 密码
@@ -80,7 +80,7 @@ vim /etc/mysql/mysql.conf.d/mysqld.cnf
 
 记得在防火墙放通 3306 端口
 
-登入 MySQL 
+登入 MySQL
 
 ```bash
 mysql -uroot -p
@@ -92,7 +92,7 @@ mysql -uroot -p
 
 依次输入以下两行代码来允许远程 root 登录
 
-```mysql
+```
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost';
 UPDATE mysql.user SET host='%' WHERE user='root';
 ```
@@ -104,4 +104,3 @@ systemctl restart mysql
 ```
 
 然后再 `mysql -uroot -p` 登录一次 MySQL（以避免奇怪的客户端连接问题 Public Key Retrieval is not allowed ）
-
