@@ -21,6 +21,7 @@
 * [debian 卸载 MySQL](linux/debian-xie-zai-mysql.md)
 * [debian 安装 PHP](linux/debian-an-zhuang-php.md)
 * [linux vps 常用脚本](linux/linux-vps-chang-yong-jiao-ben.md)
+* [从零开始搭建 Lsky Pro 兰空图床](linux/cong-ling-kai-shi-da-jian-lsky-pro-lan-kong-tu-chuang.md)
 
 ## docker
 
