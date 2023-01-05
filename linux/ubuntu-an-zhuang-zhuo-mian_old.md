@@ -15,16 +15,16 @@ tasksel install ubuntu-desktop
 
 可能会卡在 59% 一段时间，等待即可
 
-![image-20220922174610802](https://media.opennet.top/i/2023/01/05/63b6cb6dce798.png)
+![image-20220922174610802](https://nme-200t.oss-cn-hangzhou.aliyuncs.com/template/202209221746850.png)
 
 安装完毕后重新显示命令行界面，键入`reboot`命令重启服务器
 
-![image-20220922175143462](https://media.opennet.top/i/2023/01/05/63b6cb6f0e9cb.png)
+![image-20220922175143462](https://nme-200t.oss-cn-hangzhou.aliyuncs.com/template/202209221751510.png)
 
 如图所示完成ubuntu图形界面安装
 
 在设置应用可安装中文
 
-![image-20220922175444121](https://media.opennet.top/i/2023/01/05/63b6cb7138337.png)
+![image-20220922175444121](https://nme-200t.oss-cn-hangzhou.aliyuncs.com/template/202209221754164.png)
 
 安装完成后需要重启才能选择中文，然后再次重启应用中文

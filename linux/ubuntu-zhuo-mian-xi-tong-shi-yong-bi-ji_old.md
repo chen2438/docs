@@ -8,15 +8,15 @@ description: 发布于 2022.09.25, 修订于 2022.10.05
 
 在 主目录/模板 下新建文件
 
-![image-20220924231948971](https://media.opennet.top/i/2023/01/05/63b6cb78af698.png)
+![image-20220924231948971](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/image-20220924231948971.png)
 
-![image-20220924232001579](https://media.opennet.top/i/2023/01/05/63b6cb79aed04.png)
+![image-20220924232001579](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/image-20220924232001579.png)
 
 #### 安装罗技鼠标软件
 
 `sudo apt install piper`
 
-![image-20220924232139686](https://media.opennet.top/i/2023/01/05/63b6cb7acda0c.png)
+![image-20220924232139686](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/image-20220924232139686.png)
 
 #### 终端复制粘贴
 
@@ -30,7 +30,7 @@ description: 发布于 2022.09.25, 修订于 2022.10.05
 
 双击后选择 Run once
 
-![image-20220924232740629](https://media.opennet.top/i/2023/01/05/63b6cb7c1b2ab.png)
+![image-20220924232740629](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/image-20220924232740629.png)
 
 卸载只要删掉 .Appimage 文件即可
 
@@ -40,7 +40,7 @@ description: 发布于 2022.09.25, 修订于 2022.10.05
 
 搜索截图
 
-![image-20220924232950667](https://media.opennet.top/i/2023/01/05/63b6cb7d49a76.png)
+![image-20220924232950667](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/image-20220924232950667.png)
 
 #### 限制电池充电
 
@@ -54,7 +54,7 @@ description: 发布于 2022.09.25, 修订于 2022.10.05
 
 终端 `seahorse`
 
-![image-20220925004754751](https://media.opennet.top/i/2023/01/05/63b6cb7f4f646.png)
+![image-20220925004754751](https://picgo-1303840613.cos.ap-shanghai.myqcloud.com/image-20220925004754751.png)
 
 右键默认密钥环，更改密码
 

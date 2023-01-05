@@ -6,7 +6,7 @@ description: 发布于 2022.10.07
 
 前往 [https://nodejs.org/](https://nodejs.org/) 查看最新版本号
 
-![image-20221006235629453](https://media.opennet.top/i/2023/01/05/63b6cb6c9ced3.png)
+![image-20221006235629453](http://nme-200t.oss-cn-hangzhou.aliyuncs.com/notes/2022-10-06-155630.png)\
 
 
 添加对应版本安装源, 只需要改16为所需版本号

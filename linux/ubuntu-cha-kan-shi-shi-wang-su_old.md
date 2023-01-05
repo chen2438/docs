@@ -53,7 +53,7 @@ tcptrack -i eth0 -r 5 -d
   * `s` - 切换使用3种排序模式：非排序（默认），按照速率排序（sorted by rate），按照字节排序（sorted by bytes）。其中按照速率排序比较实用。
   * `q` - 退出程序
 
-![TCPTrack sort by rate](https://media.opennet.top/i/2023/01/05/63b6cb7300cae.png)
+![TCPTrack sort by rate](https://nme-file.oss-cn-hangzhou.aliyuncs.com/img/202210262011616.png)
 
 * `-f` - 表示`fast average speed`算法。TCPTrack将通过使用运行平均来计算连接的平均速度。TCPTrack将消耗更多的内存和CPUshijian，但是平均值可以更接近实时并且比每秒一次的更新更及时，并且在沉重的网络负载下更为精确。每秒采样次数将在快速平均模式下重新计算，默认是每秒采样10次进行平均。
 

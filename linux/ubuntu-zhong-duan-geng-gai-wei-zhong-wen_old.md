@@ -61,9 +61,9 @@ sudo reboot
 
 比如我用的是xshell，点击属性-》终端-》编码，选择UTF-8
 
-![img](https://media.opennet.top/i/2023/01/05/63b6cb756639f.png)
+![img](https://nme-file.oss-cn-hangzhou.aliyuncs.com/img/202210262015979.png)
 
-![img](https://media.opennet.top/i/2023/01/05/63b6cb7689ad6.png)
+![img](https://nme-file.oss-cn-hangzhou.aliyuncs.com/img/202210262015367.png)
 
 #### 五、修改为英文
 

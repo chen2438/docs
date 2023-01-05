@@ -11,6 +11,6 @@ description: 当前站点 opennet.top, 主站 chenhaotian.top
 
 
 
-![加载图标](https://media.opennet.top/i/2023/01/05/63b6cc2ea1a7b.png)
+![加载图标](http://nme-200t.oss-cn-hangzhou.aliyuncs.com/notes/2022-10-05-082720.png)
 
-![此时 Reload 即可](https://media.opennet.top/i/2023/01/05/63b6cc2e148d1.png)
+![此时 Reload 即可](http://nme-200t.oss-cn-hangzhou.aliyuncs.com/notes/2022-10-05-082541.png)

@@ -14,6 +14,6 @@ description: 发布于 2019.04.13
 
 尤其注意**下载器软件**，它会监控**复制链接行为**
 
-![在这里插入图片描述](https://media.opennet.top/i/2023/01/05/63b6cc91218eb.png)
+![在这里插入图片描述](http://nme-200t.oss-cn-hangzhou.aliyuncs.com/notes/2022-10-05-053550.png)
 
 \
