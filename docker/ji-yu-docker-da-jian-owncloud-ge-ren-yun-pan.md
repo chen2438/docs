@@ -89,7 +89,7 @@ docker-compose up -d
 
 浏览器访问 `http://服务器域名:8080`
 
-![image-20220907184239919](https://nme-200t.oss-cn-hangzhou.aliyuncs.com/template/202209071842056.png)
+![image-20220907184239919](https://media.opennet.top/i/2023/01/05/63b6c9321c852.png)
 
 用户名和密码是您之前存储的凭据，默认均为 `admin`。 请注意，即使您更改 .env 中的值，已经部署的实例中的凭据也不会改变。
 
@@ -97,11 +97,11 @@ docker-compose up -d
 
 登录后右上角设置
 
-![image-20220907185118178](https://nme-200t.oss-cn-hangzhou.aliyuncs.com/template/202209071851209.png)
+![image-20220907185118178](https://media.opennet.top/i/2023/01/05/63b6c93335eb4.png)
 
 语言中选择简体中文即可
 
-![image-20220907185242779](https://nme-200t.oss-cn-hangzhou.aliyuncs.com/template/202209071852845.png)
+![image-20220907185242779](https://media.opennet.top/i/2023/01/05/63b6c934565a4.png)
 
 ### 升级
 

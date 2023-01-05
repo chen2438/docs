@@ -33,6 +33,6 @@ sudo docker-compose up -d
 
 启动后可以通过 docker ps 查看容器状态
 
-![image-2022102720470887](https://nme-file.oss-cn-hangzhou.aliyuncs.com/img/202210272047916.png)
+![image-2022102720470887](https://media.opennet.top/i/2023/01/05/63b6c87a0ed6d.png)
 
 此时就可以通过 http://你的ip:8096 访问 jellyfin 服务（先确认服务器防火墙已放行8096端口）

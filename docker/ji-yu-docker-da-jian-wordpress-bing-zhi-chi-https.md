@@ -103,7 +103,7 @@ docker restart wordpress
 
 用 `docker ps -a` 可以查看容器的运行状况, 如果 STATUS 是 Up xxx seconds 表示启动成功, 已运行了 xxx 秒
 
-![image-20220911194133757](http://nme-200t.oss-cn-hangzhou.aliyuncs.com/notes/2022-09-11-114134.png)
+![image-20220911194133757](https://media.opennet.top/i/2023/01/05/63b6c95384a3a.png)
 
 将下载好的 SSL 证书传入服务器, `.pem`文件命名为 `ssl-cert-snakeoil.pem`, `.key`文件命名为 `ssl-cert-snakeoil.key`.
 
@@ -131,7 +131,7 @@ docker restart wordpress
 
 注意, 更改之前请尝试并确认可以通过 https 访问, 如果访问失败, 可以尝试清除浏览器缓存/强制刷新/换个浏览器
 
-![image-20220911195047917](http://nme-200t.oss-cn-hangzhou.aliyuncs.com/notes/2022-09-11-115048.png)
+![image-20220911195047917](https://media.opennet.top/i/2023/01/05/63b6c9553f0a7.png)
 
 此外, 可以强制 http 请求转到 https, 具体可见参考链接
 

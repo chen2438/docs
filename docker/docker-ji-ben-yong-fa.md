@@ -16,7 +16,7 @@ description: 发布于 2022.09.11
 
 注意, 腾讯云服务器安装 docker 在下载 docker-ce 时很慢, 可以考虑预装 docker 镜像
 
-![image-20220911120709619](http://nme-200t.oss-cn-hangzhou.aliyuncs.com/notes/2022-09-11-040710.png)
+![image-20220911120709619](https://media.opennet.top/i/2023/01/05/63b6c91cad148.png)
 
 ### docker 基本用法
 
