@@ -12,7 +12,7 @@ title: Debian VPS 常用脚本
 ### 初始化
 
 ```bash
-apt -y update && apt -y install tmux curl sudo locales
+apt -y update && apt -y install tmux curl sudo locales vim apparmor
 ```
 
 ### 设置时区
@@ -118,7 +118,7 @@ systemctl enable smartping
 
 ```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
+sh get-docker.sh
 ```
 
 ### 网心云
@@ -131,7 +131,7 @@ docker run -d --name=wxedge --restart=always --privileged --net=host  --tmpfs /r
 
 ```bash
 export P2P_EMAIL=eternal.cht@gmail.com #你的邮箱
-docker rm -f peer2profit || true && docker run -d --restart always \
+docker run -d --restart always \
         -e P2P_EMAIL=$P2P_EMAIL \
         --name peer2profit \
         peer2profit/peer2profit_linux:latest 
@@ -140,7 +140,7 @@ docker rm -f peer2profit || true && docker run -d --restart always \
 ### Traffmonetizer
 
 ```bash
-docker run -d --restart=always --name traffmonetizer5 traffmonetizer/cli start accept --token EHaXuguX8Ae3GumOrdw1VqXJqYOWbbnrsKs+rLO4jzw= #你的token
+docker run -d --restart=always --name traffmonetizer traffmonetizer/cli start accept --token EHaXuguX8Ae3GumOrdw1VqXJqYOWbbnrsKs+rLO4jzw= #你的token
 ```
 
 ### Syncthing
@@ -149,7 +149,7 @@ docker run -d --restart=always --name traffmonetizer5 traffmonetizer/cli start a
 docker run -d --name=syncthing --restart=always \
     --network=host \
     -v /root/zfile/file:/var/syncthing \ #with zfile
-    syncthing/syncthing:latest #prot 8384
+    syncthing/syncthing:latest #port 8384
 ```
 
 ### unzip批量解压
