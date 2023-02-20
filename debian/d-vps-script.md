@@ -143,15 +143,6 @@ docker run -d --restart always \
 docker run -d --restart=always --name traffmonetizer traffmonetizer/cli start accept --token EHaXuguX8Ae3GumOrdw1VqXJqYOWbbnrsKs+rLO4jzw= #你的token
 ```
 
-### Syncthing
-
-```bash
-docker run -d --name=syncthing --restart=always \
-    --network=host \
-    -v /root/zfile/file:/var/syncthing \ #with zfile
-    syncthing/syncthing:latest #port 8384
-```
-
 ### unzip批量解压
 
 ```bash
