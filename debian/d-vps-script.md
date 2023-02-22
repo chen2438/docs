@@ -33,6 +33,12 @@ wget -N --no-check-certificate "https://github.000060000.xyz/tcpx.sh" && chmod +
 wget https://www.moerats.com/usr/shell/swap.sh && bash swap.sh
 ```
 
+### 重新配置LOCALE
+
+```bash
+dpkg-reconfigure locales
+```
+
 ### Bench
 
 ```bash
@@ -54,19 +60,19 @@ curl https://raw.githubusercontent.com/zhanghanyun/backtrace/main/install.sh -sS
 ### 流媒体检测
 
 ```bash
-bash <(curl -L -s https://git.io/JRw8R)
+bash <(curl -L -s https://git.io/JRw8R) 
+```
+
+### 三网测速
+
+```bash
+bash <(wget -qO- https://raw.githubusercontent.com/chiron688/linux_jobs/main/speed.sh)
 ```
 
 ### Magic
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
-```
-
-### 重新配置LOCALE
-
-```bash
-dpkg-reconfigure locales
 ```
 
 ### Smart Ping
