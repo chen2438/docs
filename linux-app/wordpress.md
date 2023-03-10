@@ -73,28 +73,23 @@ services:
 运行容器
 
 ```bash
-docker-compose up -d
+docker compose up -d
+```
+
+若要终止容器
+
+```bash
+docker compose down
+rm -rf ~/wordpress
 ```
 
 服务器防火墙开放 80 和 443 端口, 浏览器输入域名即可访问 WordPress
 
 ### 部署 SSL 证书
 
-进入容器
-
 ```bash
-docker exec -it wordpress bash
-```
-
-加载 Apache SSL 模块
-
-```bash
-a2enmod ssl
-```
-
-第一次加载, 需要重启 Apache 服务
-
-```bash
+docker exec -it wordpress bash #进入容器
+a2enmod ssl #加载 Apache SSL 模块
 service apache2 restart
 ```
 
@@ -116,6 +111,7 @@ docker restart wordpress
 
 ```bash
 docker cp ssl-cert-snakeoil.pem wordpress:/etc/ssl/certs/ssl-cert-snakeoil.pem
+docker cp ssl-cert-snakeoil.pem wordpress:/etc/ssl/certs/ssl-cert-snakeoil.cer
 docker cp ssl-cert-snakeoil.key wordpress:/etc/ssl/private/ssl-cert-snakeoil.key
 ```
 
@@ -129,6 +125,16 @@ ln -s /etc/apache2/sites-available/default-ssl.conf /etc/apache2/sites-enabled/d
 退出容器, 然后重启容器
 
 ```bash
+docker restart wordpress
+```
+
+最后，再加载一遍SSL模块
+
+```bash
+docker exec -it wordpress bash #进入容器
+a2enmod ssl #加载 Apache SSL 模块
+service apache2 restart
+# 自动退出容器
 docker restart wordpress
 ```
 
