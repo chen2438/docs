@@ -107,11 +107,13 @@ docker restart wordpress
 
 将下载好的 SSL 证书传入服务器, `.pem`文件命名为 `ssl-cert-snakeoil.pem`, `.key`文件命名为 `ssl-cert-snakeoil.key`.
 
+如果使用 `.cer`，需要自行进入容器内修改 `/etc/apache2/sites-available/default-ssl.conf`
+
 然后 copy 到容器的相应位置
 
 ```bash
 docker cp ssl-cert-snakeoil.pem wordpress:/etc/ssl/certs/ssl-cert-snakeoil.pem
-docker cp ssl-cert-snakeoil.pem wordpress:/etc/ssl/certs/ssl-cert-snakeoil.cer
+#docker cp ssl-cert-snakeoil.pem wordpress:/etc/ssl/certs/ssl-cert-snakeoil.cer
 docker cp ssl-cert-snakeoil.key wordpress:/etc/ssl/private/ssl-cert-snakeoil.key
 ```
 

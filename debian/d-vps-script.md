@@ -12,7 +12,7 @@ title: Debian VPS 常用脚本
 ### 初始化
 
 ```bash
-apt -y update && apt -y install tmux curl sudo locales vim apparmor
+apt -y update && apt -y upgrade && apt -y install tmux curl sudo locales vim apparmor
 ```
 
 ### 设置时区
@@ -162,3 +162,21 @@ unzip $i -d $s
 done
 ```
 
+### 安装Ruby
+
+Debian 11 Ruby 2.7
+
+```bash
+apt install ruby-full -y
+# apt purge ruby -y # 卸载
+```
+
+### 申请TLS证书
+
+已安装nginx
+
+
+```bash
+curl https://get.acme.sh | sh -s email=me@opennet.com
+/root/.acme.sh/acme.sh --issue -d opennet.top --server letsencrypt --webroot /var/www/html
+```
