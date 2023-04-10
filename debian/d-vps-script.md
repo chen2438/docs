@@ -57,6 +57,10 @@ curl -sL yabs.sh | bash -s -- -i
 curl https://raw.githubusercontent.com/zhanghanyun/backtrace/main/install.sh -sSf | sh
 ```
 
+```bash
+wget -qO- git.io/autobesttrace | bash
+```
+
 ### 流媒体检测
 
 ```bash
