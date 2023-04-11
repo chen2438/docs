@@ -7,6 +7,8 @@ slug: edge-force-https
 title: Edge、Chrome 强制跳转 https 网页解决办法
 ---
 
+# Edge、Chrome 强制跳转 https 网页解决办法
+
 原文链接：https://juejin.cn/post/7113754454440017951
 
 1.在浏览器输入：edge输入：edge://net-internals/#hsts，谷歌输入：chrome://net-internals/#hsts
