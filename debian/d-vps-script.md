@@ -182,5 +182,25 @@ apt install ruby-full -y
 
 ```bash
 curl https://get.acme.sh | sh -s email=me@opennet.com
-/root/.acme.sh/acme.sh --issue -d opennet.top --server letsencrypt --webroot /var/www/html
+/root/.acme.sh/acme.sh --issue -d google.opennet.top --server letsencrypt --webroot /var/www/html
+```
+
+### 关闭IPv6
+
+编辑/etc/sysctl.conf 文件，在文件的最末尾添加下面的entry:
+
+```bash
+net.ipv6.conf.all.disable_ipv6 = 1
+```
+
+如果仅想关闭某一网卡的ipv6，比如说ens4, 那就可以添加下面的entry:
+
+```bash
+net.ipv6.conf.ens4.disable_ipv6 = 1
+```
+
+让命令生效:
+
+```bash
+sysctl -p
 ```
