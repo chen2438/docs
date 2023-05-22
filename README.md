@@ -1,8 +1,8 @@
-**此 repo 不再更新。请前往 https://github.com/chen2438/chenhaotian.top/tree/main/source/_posts 。**
-
 ---
 description: 当前站点 opennet.top, 主站 chenhaotian.top
 ---
+
+**Note: 此 repo 不再更新。请前往 https://github.com/chen2438/chenhaotian.top/tree/main/source/_posts 。**
 
 # 起始页
 
